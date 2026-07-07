@@ -1,0 +1,258 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "antfu-skills",
+  "description": "antfu's collection of Vue/Nuxt/Vite ecosystem skills — Vue 3 Composition API best practices, Vue Router, Pinia, UnoCSS, Vitest, VueUse functions, and more. Curated by Anthony Fu.",
+  "owner": {
+    "name": "Anthony Fu",
+    "url": "https://github.com/antfu"
+  },
+  "plugins": [
+    {
+      "name": "antfu",
+      "description": "Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when the user mentions Anthony Fu's preferences.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/antfu",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/antfu"
+    },
+    {
+      "name": "antfu-design",
+      "description": "antfu-style design conventions, broadened. UnoCSS-first, class-based semantic tokens with dual light/dark for tooling and devtools UIs, plus design-read, anti-slop, and micro-interaction polish for landing pages and product surfaces. Use when building or refactoring any interface with UnoCSS.",
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/antfu-design",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/antfu-design"
+    },
+    {
+      "name": "nitro",
+      "description": "Nitro is the framework-agnostic server toolkit (powering Nuxt) for building and deploying web servers anywhere. Use when working with nitro.config, server routes/event handlers, route rules, caching, storage, tasks, websockets, or deploying to Node/Bun/Deno/Cloudflare/Vercel.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/nitro",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/nitro"
+    },
+    {
+      "name": "nuxt",
+      "description": "Nuxt full-stack Vue framework with SSR, auto-imports, and file-based routing. Use when working with Nuxt apps, server routes, useFetch, middleware, or hybrid rendering.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/nuxt",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/nuxt"
+    },
+    {
+      "name": "pinia",
+      "description": "Pinia official Vue state management library, type-safe and extensible. Use when defining stores, working with state/getters/actions, or implementing store patterns in Vue apps.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/pinia",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/pinia"
+    },
+    {
+      "name": "pnpm",
+      "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces via pnpm-workspace.yaml, or managing dependencies with catalogs, patches, overrides, config dependencies, or the global virtual store.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/pnpm",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/pnpm"
+    },
+    {
+      "name": "slidev",
+      "description": "Create and present web-based slidedecks for developers using Slidev with Markdown, Vue components, code highlighting, animations, and interactive features. Use when building technical presentations, conference talks, code walkthroughs, teaching materials, or developer decks.",
+      "category": "documentation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/slidev",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/slidev"
+    },
+    {
+      "name": "tsdown",
+      "description": "Bundle TypeScript and JavaScript libraries with blazing-fast speed powered by Rolldown. Use when building libraries, generating type declarations, bundling for multiple formats, or migrating from tsup.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/tsdown",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/tsdown"
+    },
+    {
+      "name": "turborepo",
+      "description": "| Turborepo monorepo build system guidance. Triggers on: turbo.json, task pipelines, dependsOn, caching, remote cache, the \"turbo\" CLI, --filter, --affected, CI optimization, environment variables, internal packages, monorepo structure/best practices, and boundaries. Use when user: configures tasks/workflows/pipelines, creates packages, sets up monorepo, shares code between apps, runs changed/affected packages, debugs cache, or has apps/packages directories.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/turborepo",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/turborepo"
+    },
+    {
+      "name": "unocss",
+      "description": "UnoCSS instant atomic CSS engine, superset of Tailwind CSS. Use when configuring UnoCSS, writing utility rules, shortcuts, or working with presets like Wind, Icons, Attributify.",
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/unocss",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/unocss"
+    },
+    {
+      "name": "vite",
+      "description": "Vite build tool configuration, plugin API, SSR, and Vite 8 Rolldown migration. Use when working with Vite projects, vite.config.ts, Vite plugins, or building libraries/SSR apps with Vite.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/vite",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/vite"
+    },
+    {
+      "name": "vitepress",
+      "description": "VitePress static site generator powered by Vite and Vue. Use when building documentation sites, configuring themes, or writing Markdown with Vue components.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/vitepress",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/vitepress"
+    },
+    {
+      "name": "vitest",
+      "description": "Vitest fast unit testing framework powered by Vite with Jest-compatible API. Use when writing tests, mocking, configuring coverage, or working with test filtering and fixtures.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/vitest",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/vitest"
+    },
+    {
+      "name": "vue",
+      "description": "Vue 3 Composition API, script setup macros, reactivity system, and built-in components. Use when writing Vue SFCs, defineProps/defineEmits/defineModel, watchers, or using Transition/Teleport/Suspense/KeepAlive.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/vue",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/vue"
+    },
+    {
+      "name": "vue-best-practices",
+      "description": "MUST be used for Vue.js tasks. Strongly recommends Composition API with `<script setup>` and TypeScript as the standard approach. Covers Vue 3, SSR, Volar, vue-tsc. Load for any Vue, .vue files, Vue Router, Pinia, or Vite with Vue work. ALWAYS use Composition API unless the project explicitly requires Options API.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/vue-best-practices",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/vue-best-practices"
+    },
+    {
+      "name": "vue-router-best-practices",
+      "description": "Vue Router 4 patterns, navigation guards, route params, and route-component lifecycle interactions.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/vue-router-best-practices",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/vue-router-best-practices"
+    },
+    {
+      "name": "vue-testing-best-practices",
+      "description": "Use for Vue.js testing. Covers Vitest, Vue Test Utils, component testing, mocking, testing patterns, and Playwright for E2E testing.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/vue-testing-best-practices",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/vue-testing-best-practices"
+    },
+    {
+      "name": "vueuse-functions",
+      "description": "Apply VueUse composables where appropriate to build concise, maintainable Vue.js / Nuxt features.",
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/vueuse-functions",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/vueuse-functions"
+    },
+    {
+      "name": "web-design-guidelines",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "category": "design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/antfu/skills.git",
+        "path": "skills/web-design-guidelines",
+        "ref": "main",
+        "sha": "a74f281a27dadc02397bc1a174b0f2c97531b6ae"
+      },
+      "homepage": "https://github.com/antfu/skills/tree/main/skills/web-design-guidelines"
+    }
+  ]
+}
